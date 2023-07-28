@@ -11,7 +11,7 @@ setup(
     long_description_content_type="text/x-rst",
     url="https://github.com/testcontainers/testcontainers-python",
     install_requires=[
-        "testcontainers-core",
+        "testcontainers-core @ git+https://github.com/Shuttleu/testcontainers-python.git@main#subdirectory=core",
         "sqlalchemy",
         "psycopg2-binary",
     ],
